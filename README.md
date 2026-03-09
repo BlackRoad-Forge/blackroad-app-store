@@ -1,8 +1,6 @@
-# BlackRoad OS App Store 🏪
+# BlackRoad App Store
 
-**You're absolutely right - we DON'T need Apple or Google!**
-
-Zero gatekeepers. Zero fees. Total control.
+Web-based app marketplace for the BlackRoad OS ecosystem. Built with Next.js 15.
 
 ## Quick Start
 
@@ -10,51 +8,33 @@ Zero gatekeepers. Zero fees. Total control.
 cd web && npm install && npm run dev
 ```
 
-Visit: http://localhost:3100
+Open [http://localhost:3100](http://localhost:3100).
 
-## Why This Works
+## Stack
 
-### The Problem with Apple/Google:
-- ❌ 30% revenue tax
-- ❌ 1-7 day review  
-- ❌ Arbitrary rejections
-- ❌ Censorship
+- **Framework:** Next.js 15 (React 18)
+- **Deploy:** Cloudflare Pages
+- **Distribution:** PWA, direct download, sideload
 
-### Our Solution:
-- ✅ 0% fees
-- ✅ Instant publishing
-- ✅ No review
-- ✅ Web + Mobile + Desktop
+## Features
 
-## How We Bypass Them
+- Instant app publishing (no review gate)
+- Developer-first: 5% platform fee (vs 30% industry standard)
+- Progressive Web App support for cross-platform install
+- Dark theme UI with BlackRoad branding
 
-### 1. Progressive Web Apps (PWAs)
-Install from browser - no app store needed!
+## Project Structure
 
-### 2. Android APKs
-Direct download + sideload
+```
+web/
+  app/
+    layout.js    # Root layout
+    page.js      # Store homepage
+  package.json   # Dependencies
+  next.config.js # Next.js config
+  wrangler.toml  # Cloudflare Pages deployment
+```
 
-### 3. Desktop Apps
-Always been distributed directly
+## License
 
-### 4. iOS (Harder, but possible)
-- TestFlight (100K beta users)
-- AltStore sideloading
-- Enterprise certificates
-
-## 100% Legal
-
-This is completely legal:
-- Web apps = websites
-- Android allows sideloading
-- Desktop = always free
-- iOS sideloading = legal
-
-## Revenue: You Keep It All
-
-- Free apps: $0
-- Paid apps: 5% (vs 30% Apple/Google)
-
----
-
-**BlackRoad OS** - Your store, your rules
+Copyright 2026 BlackRoad OS, Inc. All rights reserved.
