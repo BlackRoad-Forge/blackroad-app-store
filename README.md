@@ -1,5 +1,11 @@
 # BlackRoad App Store
 
+[![PWA](https://img.shields.io/badge/PWA-50_apps-FF6B2B.svg)](https://apps.blackroad.io)
+[![0% Commission](https://img.shields.io/badge/commission-0%25-00D4FF.svg)](https://blackroad.io)
+[![HTML/JS](https://img.shields.io/badge/HTML%2FJS-marketplace-E34F26.svg)](https://blackroad.io)
+
+
+
 Web-based app marketplace for the BlackRoad OS ecosystem. Built with Next.js 15.
 
 ## Quick Start
